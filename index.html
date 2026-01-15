@@ -3,13 +3,40 @@
     <head>
         <meta charset="UTF-8">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="/fonts.css">
+        <link rel="stylesheet" href="/style.css">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-            <li><a href="/recipes/overnight-oats.html">Overnight Oats</a></li>
-            <li><a href="/recipes/grilled-peanut-butter-and-jelly-sandwich.html">Grilled Peanut Butter and Jelly Sandwich</a></li>
-            <li><a href="/recipes/good-old-fashioned-pancakes.html">Good Old Fashioned Pancakes</a></li>
-        </ul>
+        <header class="header">
+            <h1 class="header__title">Odin Recipes</h1>
+        </header>
+        <main class="main">
+            <!-- <ul>
+                <li><a href="/recipes/overnight-oats.html">Overnight Oats</a></li>
+                <li><a href="/recipes/grilled-peanut-butter-and-jelly-sandwich.html">Grilled Peanut Butter and Jelly Sandwich</a></li>
+                <li><a href="/recipes/good-old-fashioned-pancakes.html">Good Old Fashioned Pancakes</a></li>
+            </ul> -->
+            <div class="card">
+                <img class="card__image" src="https://www.allrecipes.com/thmb/9Cvl8DN5KVC54xPPvvR4UVwFTfA=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ALR-244251-no-cook-overnight-oatmeal-4x3-049d795c0e954c96a85c5968e9e0e5b0.jpg" alt="">
+                <div class="card__title-container">
+                    <h2 class="card__title">Overnight Oats</h2>
+                </div>
+                <a class="card__link" href="/recipes/overnight-oats.html">Go to recipe</a>
+            </div>
+             <div class="card">
+                <img class="card__image" src="https://www.allrecipes.com/thmb/bxYBd-Xx8vQtDEQ7V5YF1Iktxu0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/49943-grilled-peanut-butter-and-jelly-sandwich-4x3-0309-085648b2dc5f421da0fbef9292a89ff0.jpg" alt="">
+                <div class="card__title-container">
+                    <h2 class="card__title">Grilled Peanut Butter and Jelly Sandwich</h2>
+                </div>
+                <a class="card__link" href="/recipes/grilled-peanut-butter-and-jelly-sandwich.html">Go to recipe</a>
+            </div>           
+            <div class="card">
+                <img class="card__image" src="https://www.allrecipes.com/thmb/nPYYrGakrCU0oxVs4o0dUFu-cP4=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/21014-good-old-fashioned-pancakes-VAT-003-3x2-02-6b79447c2dfb4f3692f2db1e3f58d182.jpg" alt="">
+                <div class="card__title-container">
+                    <h2 class="card__title">Good Old Fashioned Pancakes</h2>
+                </div>
+                <a class="card__link" href="/recipes/good-old-fashioned-pancakes.html">Go to recipe</a>
+            </div>
+        </main>
     </body>
 </html>
